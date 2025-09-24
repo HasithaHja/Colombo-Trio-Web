@@ -19,7 +19,7 @@ const Header = ({ theme, setTheme }) => {
             </svg>
           </div>
           <h2 className="text-lg font-bold leading-tight tracking-[-0.015em]">
-            Innovatech Solutions
+            COLOMBO TRIO
           </h2>
         </div>
         <div className="flex flex-1 justify-end gap-8">
