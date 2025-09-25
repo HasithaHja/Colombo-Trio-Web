@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = ({ theme, setTheme }) => {
   return (
@@ -19,41 +20,41 @@ const Header = ({ theme, setTheme }) => {
             </svg>
           </div>
           <h2 className="text-lg font-bold leading-tight tracking-[-0.015em]">
-            Innovatech Solutions
+            <Link to="/">COLOMBO TRIO</Link>
           </h2>
         </div>
         <div className="flex flex-1 justify-end gap-8">
           <div className="flex items-center gap-9">
-            <a
+            <NavLink
+              to={"/"}
               className="text-sm font-medium leading-normal hover:text-[#1193d4]"
-              href="#"
             >
               Home
-            </a>
-            <a
+            </NavLink>
+            <NavLink
+              to={"/services"}
               className="text-sm font-medium leading-normal hover:text-[#1193d4]"
-              href="#"
             >
               Services
-            </a>
-            <a
+            </NavLink>
+            <NavLink
+              to={"/portfolio"}
               className="text-sm font-medium leading-normal hover:text-[#1193d4]"
-              href="#"
             >
               Portfolio
-            </a>
-            <a
+            </NavLink>
+            <NavLink
+              to={"/about"}
               className=" text-sm font-medium leading-normal hover:text-[#1193d4]"
-              href="#"
             >
               About
-            </a>
-            <a
+            </NavLink>
+            <NavLink
+              to={"/contact"}
               className=" text-sm font-medium leading-normal hover:text-[#1193d4]"
-              href="#"
             >
               Contact Us
-            </a>
+            </NavLink>
           </div>
           {/* Theme Toggle Button */}
           <button
