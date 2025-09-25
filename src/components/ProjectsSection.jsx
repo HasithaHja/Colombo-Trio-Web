@@ -24,8 +24,8 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <>
-      <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+    <div className="theme-bg bg-white dark:bg-[#111c22]">
+      <h2 className="theme-text text-gray-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
         Featured Projects
       </h2>
       <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
@@ -34,11 +34,11 @@ const ProjectsSection = () => {
         ))}
       </div>
       <div className="flex px-4 py-3 justify-center">
-        <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#233c48] text-white text-sm font-bold leading-normal tracking-[0.015em]">
+        <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-gray-700 hover:bg-gray-800 dark:bg-gray-600 dark:hover:bg-gray-700 text-white text-sm font-bold leading-normal tracking-[0.015em]">
           <span className="truncate">See All Projects</span>
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

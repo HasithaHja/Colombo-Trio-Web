@@ -2,9 +2,9 @@ import React from "react";
 
 const FeatureCard = ({ icon, title }) => {
   return (
-    <div className="flex flex-1 gap-3 rounded-lg border border-[#325567] bg-[#192b33] p-4 items-center">
-      <div className="text-white" dangerouslySetInnerHTML={{ __html: icon }} />
-      <h2 className="text-white text-base font-bold leading-tight">{title}</h2>
+    <div className="flex flex-1 gap-3 rounded-lg theme-bg-card bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-500 p-4 items-center">
+      <div className="theme-text text-gray-900 dark:text-white" dangerouslySetInnerHTML={{ __html: icon }} />
+      <h2 className="theme-text text-gray-900 dark:text-white text-base font-bold leading-tight">{title}</h2>
     </div>
   );
 };
@@ -32,7 +32,7 @@ const WhyChooseUsSection = () => {
 
   return (
     <>
-      <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+      <h2 className="text-gray-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
         Why Choose Us
       </h2>
       <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">

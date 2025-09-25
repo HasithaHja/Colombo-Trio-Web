@@ -22,8 +22,8 @@ const WhyChooseUsSection = () => {
   ];
 
   return (
-    <>
-      <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+    <div className="theme-bg bg-white dark:bg-[#111c22]">
+      <h2 className="theme-text text-gray-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
         Why Choose Us
       </h2>
       <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
@@ -31,7 +31,7 @@ const WhyChooseUsSection = () => {
           <FeatureCard key={index} {...feature} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
