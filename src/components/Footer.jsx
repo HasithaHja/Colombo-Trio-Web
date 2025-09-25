@@ -7,37 +7,37 @@ const Footer = () => {
         <footer className="flex flex-col gap-6 px-5 py-10 text-center @container">
           <div className="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
             <a
-              className="text-[#92b7c9] text-base font-normal leading-normal min-w-40"
+              className="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal min-w-40"
               href="#"
             >
               Services
             </a>
             <a
-              className="text-[#92b7c9] text-base font-normal leading-normal min-w-40"
+              className="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal min-w-40"
               href="#"
             >
               Projects
             </a>
             <a
-              className="text-[#92b7c9] text-base font-normal leading-normal min-w-40"
+              className="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal min-w-40"
               href="#"
             >
               About Us
             </a>
             <a
-              className="text-[#92b7c9] text-base font-normal leading-normal min-w-40"
+              className="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal min-w-40"
               href="#"
             >
               Contact
             </a>
             <a
-              className="text-[#92b7c9] text-base font-normal leading-normal min-w-40"
+              className="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal min-w-40"
               href="#"
             >
               Privacy Policy
             </a>
             <a
-              className="text-[#92b7c9] text-base font-normal leading-normal min-w-40"
+              className="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal min-w-40"
               href="#"
             >
               Terms of Service
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#">
-              <div className="text-[#92b7c9]">
+              <div className="text-gray-500 dark:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24px"
@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
             </a>
             <a href="#">
-              <div className="text-[#92b7c9]">
+              <div className="text-gray-500 dark:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24px"
@@ -71,7 +71,7 @@ const Footer = () => {
               </div>
             </a>
             <a href="#">
-              <div className="text-[#92b7c9]">
+              <div className="text-gray-500 dark:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24px"
@@ -84,7 +84,7 @@ const Footer = () => {
               </div>
             </a>
           </div>
-          <p className="text-[#92b7c9] text-base font-normal leading-normal">
+          <p className="text-gray-500 dark:text-gray-400 text-base font-normal leading-normal">
             © 2024 Innovatech Solutions. All rights reserved.
           </p>
         </footer>

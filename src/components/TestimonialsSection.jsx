@@ -26,8 +26,8 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <>
-      <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+    <div className="theme-bg bg-white dark:bg-[#111c22]">
+      <h2 className="theme-text text-gray-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
         Testimonials
       </h2>
       <div className="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
@@ -37,7 +37,7 @@ const TestimonialsSection = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

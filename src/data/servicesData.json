@@ -1,0 +1,82 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Web Development",
+            "description": "Crafting dynamic web applications using MERN, Angular, and Next.js.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBEzdjIB-KyFoTfQevAcXZfQtrTdIFrjADPl5YYsVHZjr4Uum9yMeEgffcJ83l5V9btHKgj1gnlmAS8ItOUTe9d-i5T26fDC5QHU31mmLg52vGNKyAwsMpcRW_0ps-z_CfBBtcMCHI9qHY4LstABfvImQBcczohdwDAXoeBsn2NGYV7Ms5ivz640DcSURb1GXKBEOwq3ubdZ9Nt7FzGqZqTIgCoYgV-eUV-b2--vLNAmBuN6tuWiCSDlajs-cdeYsUwBaEtV82nMlg",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Express",
+                "Angular",
+                "Next.js"
+            ],
+            "category": "web"
+        },
+        {
+            "id": 2,
+            "title": "Mobile Apps",
+            "description": "Building cross-platform mobile apps with Flutter and React Native, and native apps for Android/iOS.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAOnsZmQmvIP30SSe4ztZASou5QwO72pAcSnYVl5bidg_ZgVRs8RtiyKq4a449LAhffIYJi5GlZJOGOxffEftiYty4NcyOfgWIAQJZhHfJPYXgFbooj0rYyVpFnfN-cqL0bBf2AvZxGV7nOtMbVXf889GYysfj7BpYx4iUrB6Ovi-Xo1dA1xPAo54eiYR-fj0o8pMqH7YnxuasSrS-gI419YFnPlZVEwFhtsx7b3sIKpHrotNvcV1DuY79WJDZoY8NLzsslpeQhqq0",
+            "technologies": [
+                "Flutter",
+                "React Native",
+                "Swift",
+                "Kotlin",
+                "Android SDK",
+                "iOS SDK"
+            ],
+            "category": "mobile"
+        },
+        {
+            "id": 3,
+            "title": "IoT Solutions",
+            "description": "Developing IoT solutions like greenhouse automation systems.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDDvs0bNi3b3oYAqXsRJhjxbn7m_uPef4vA0sDhxy0QkMs1ZJnCo5hSuatz5Nw1VqTxArt6hHy2_bRtibS0Y-499GPWFr2YbnowRhYls2pGOPK5eLeZu-8syvmzwF4G2SCB8BIoewm3wITsjjFsWBQAMgh3RvNJ9wsn9asEV0rV6AgOP5AODekVgDDGDKocpbNg98oNE_09J5plg-q10ZC-HNdArkCDwOsdJPGzWusHlApgqsnYsKgvqDSygrJHJXPOPQLqO5VZw2Y",
+            "technologies": [
+                "Arduino",
+                "Raspberry Pi",
+                "MQTT",
+                "Python",
+                "C++",
+                "Sensors"
+            ],
+            "category": "iot"
+        },
+        {
+            "id": 4,
+            "title": "AI & Machine Learning",
+            "description": "Implementing AI and machine learning for analytics and smart applications.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoUP7QAxTv6We-Q3njH1lMt9mP0ygqP9ll3QrI6-J5qVxUGvOk56UUuttvEhzd3GX9Fw_m6vkPZ-dTQQT8m6-7nHxQBjpR_WY7jlk456zwMrscHlXPXaTgktmIrqDwKcAX2LIB5xOZQKw3bDy9d2lLpLZ9U92cRP7SDPFKuOYwwrocRBxsyAB6pN32vDY3hcb4jD97VEki1qo-QrAlctPQWHoqZa80bKjCfOPscMzE0iZ_gEKHAfwp0lG_YrdzrxPQFRxlbwOXIL0",
+            "technologies": [
+                "TensorFlow",
+                "PyTorch",
+                "Python",
+                "Scikit-learn",
+                "OpenCV",
+                "NLP"
+            ],
+            "category": "ai"
+        },
+        {
+            "id": 5,
+            "title": "Custom Software",
+            "description": "Creating custom software solutions such as POS systems, e-commerce platforms, and LMS.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDySutX8aUYy6hE8TqNfnYgNi86r-UwZSKFoiIff52wGfAbIVBdr1cysBzBqpKz9raqBOtzjWi4Bwg7n4abzd_aZuwx02S39JKNm27d2mrp7W30zw7uiXj9HivAx91JY-LK-WbY10lmSlTnORQG-4-mqXfT5wH2V70Oms3b_tr3qp4kNFn9daTVfNnkALwXgL-QSU9pxk1VKBuc3IwatBHDgzQUnuLpJ3XDYiT-1WzsNZxro_X3mPMpQ5--oTA9Ho7C7CC_NraQ6SU",
+            "technologies": [
+                "Custom Framework",
+                "Database Design",
+                "API Development",
+                "UI/UX",
+                "Cloud Services"
+            ],
+            "category": "software"
+        }
+    ],
+    "metadata": {
+        "lastUpdated": "2024-09-25",
+        "totalServices": 5
+    }
+}

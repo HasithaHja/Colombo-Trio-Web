@@ -1,3 +1,58 @@
+@tailwind utilities;
+
+/* CSS Custom Properties for theme */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-card: #f3f4f6;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border-color: #d1d5db;
+}
+
+html.dark {
+  --bg-primary: #111c22;
+  --bg-secondary: #1f2937;
+  --bg-card: #374151;
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+  --border-color: #4b5563;
+  color-scheme: dark;
+}
+
+/* Force apply theme styles */
+html.dark body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+html:not(.dark) body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Theme-aware utility classes */
+.theme-bg {
+  background-color: var(--bg-primary);
+}
+
+.theme-bg-secondary {
+  background-color: var(--bg-secondary);
+}
+
+.theme-bg-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+}
+
+.theme-text {
+  color: var(--text-primary);
+}
+
+.theme-text-secondary {
+  color: var(--text-secondary);
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
