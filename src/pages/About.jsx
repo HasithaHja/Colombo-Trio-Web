@@ -3,7 +3,7 @@ import React from "react";
 const About = ({ theme, setTheme }) => {
   return (
     <div
-      className="relative flex h-auto min-h-screen w-full flex-col theme-bg theme-text group/design-root overflow-x-hidden"
+      className="relative flex h-auto min-h-screen w-full flex-col theme-bg theme-text group/design-root overflow-x-hidden pt-12"
       style={{ fontFamily: 'Inter, "Noto Sans", sans-serif' }}
     >
       <div className="layout-container flex h-full grow flex-col">
