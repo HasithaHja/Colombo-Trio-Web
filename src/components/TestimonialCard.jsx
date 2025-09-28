@@ -2,9 +2,9 @@ import React from "react";
 
 const TestimonialCard = ({ image, quote, author }) => {
   return (
-    <div className="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60 p-4 theme-bg-card bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-600">
+    <div className="flex h-full flex-col gap-4 rounded-lg p-4 theme-bg-card bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-600">
       <div
-        className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+        className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
         style={{ backgroundImage: `url("${image}")` }}
       ></div>
       <div>

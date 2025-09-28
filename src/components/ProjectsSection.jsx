@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import { Link } from "react-router-dom";
 
 const ProjectsSection = () => {
   const projects = [
@@ -24,19 +25,25 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <div className="theme-bg bg-white dark:bg-[#111c22]">
-      <h2 className="theme-text text-gray-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
-        Featured Projects
-      </h2>
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
-        ))}
-      </div>
-      <div className="flex px-4 py-3 justify-center">
-        <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-gray-700 hover:bg-gray-800 dark:bg-gray-600 dark:hover:bg-gray-700 text-white text-sm font-bold leading-normal tracking-[0.015em]">
-          <span className="truncate">See All Projects</span>
-        </button>
+    <div className="w-full">
+      <div className="max-w-7xl mx-auto px-10 py-4">
+        <div className="theme-bg bg-white dark:bg-[#111c22]">
+          <h2 className="theme-text text-gray-900 dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+            Featured Projects
+          </h2>
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 pt-4">
+            {projects.map((project, index) => (
+              <ProjectCard key={index} {...project} />
+            ))}
+          </div>
+          <div className="flex px-4 py-3 justify-center">
+            <Link to={"/portfolio"}>
+              <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-gray-700 hover:bg-gray-800 dark:bg-gray-600 dark:hover:bg-gray-700 text-white text-sm font-bold leading-normal tracking-[0.015em]">
+                <span className="truncate">See All Projects</span>
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

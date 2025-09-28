@@ -1,3 +1,5 @@
+/* App.css */
+
 @tailwind utilities;
 
 /* CSS Custom Properties for theme */
@@ -50,6 +52,24 @@ html:not(.dark) body {
 }
 
 .theme-text-secondary {
+  color: var(--text-secondary);
+}
+
+.theme-input {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.theme-button-primary {
+  background-color: var(--primary-color, #2563EB);
+}
+
+.theme-button-primary:hover {
+  opacity: 0.9;
+}
+
+.placeholder-theme-text-secondary::placeholder {
   color: var(--text-secondary);
 }
 
